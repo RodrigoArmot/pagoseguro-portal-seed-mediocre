@@ -2,7 +2,8 @@ name: deploy
 
 # Pipeline base del Portal de Estado de Transacciones.
 # Material de estudio del Bloque 3. Se dispara con cada push a main.
-on:
+on: 
+  workflow_dispatch:
   push:
     branches: [ main ]
 
